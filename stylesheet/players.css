@@ -1,0 +1,83 @@
+body
+{
+	background:url("../images/ground.jpg");
+	background-repeat: no-repeat;
+	background-size:auto 125%;
+}
+#header
+{
+	height:20%;
+	width:100%;
+}
+#ipllogo
+{
+    float: left;
+    height: 100%;
+    width: 15%;
+    background-image: url("../images/ipl.png");
+    background-repeat: no-repeat;
+}
+#teamlogo
+{
+    float:left;
+    height: 100%;
+    width: 10%;
+    margin-left:10% ;
+    border-radius: 50%;
+}
+#teamlogo img
+{
+    margin-top: 5%;
+    height:175px;
+    width:175px;
+
+    border-radius: 50%;
+}
+#teamname
+{
+    float:left;
+    height: 100%;
+    width: auto;
+    text-align: left;
+    font: normal 90px Arial, sans-serif;
+    margin-left: 35%;
+    margin-top: -8%;
+    color:#C0C0C0;
+}
+#section
+{
+    width:100%;
+    height:70%;
+    
+}
+.container
+{
+    height:30%;
+    width:100%;
+    margin-top:2%;
+}
+.p1{
+    height:100%;
+    width:20%;
+    float:left;
+    margin-left:10%;
+}
+.p2{
+    height:100%;
+    width:20%;
+    float:left;
+    margin-left:10%;
+}
+.p3{
+    height:100%;
+    width:20%;
+    float:left;
+    margin-left:10%;
+}
+.pimage{
+    float: left;
+    height: 100px;
+    margin: 200px;
+    margin-top: 0;
+
+    }

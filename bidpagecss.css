@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+	height:170px;
+	width:cover;
+	background-color:#0F0;
+}
+#ipllogo{
+		height:170px;
+		width:20%;
+		background-color:#F00;
+		display:block;
+		float:left;
+				
+}
+#teamlogo{
+		height:170px;
+		width:150px;
+		border-radius:60%;
+		float:right;
+		margin-top:10px;
+		margin-left:50px;
+}
+#teamname{
+		height:150px;
+		text-align:center;
+		font-size:24px;
+		float:right;
+		width:60%;
+}
+#leftsidebar{
+		height:cover;
+		width:20%;
+		background-color:#333;
+		display:block;
+		float:left;
+}
+ #leftsidebar table{
+		width:100%;
+}
+ #leftsidebar tr:hover{
+		background-color:#900;
+		cursor:pointer;
+}
+ #leftsidebar tr{
+	background-color:#C60;
+	padding:5%;
+	border:1px solid black;
+	
+
+}
+#leftsidebar td{
+	text-align:center;
+}
+
+#secondheader{
+		height:100px;
+		width:80%;
+		background-color:#F00;
+		float:left;
+		margin:0px;
+		display:block;
+}
+#totalplayer{
+		height:10%;
+		width:50%;
+		background-color:#906;
+			float:left;
+			
+}
+#rbudget{
+		background-color:#999;
+		float:left;
+				width:50%;
+		height:10%;
+
+		position:relative;
+		
+}
+#player{
+	height:200px;
+	width:150px;
+	float:left;
+	background-color:#00F;
+}
+#pbidarea{
+	display:block;
+	height:100%;
+	width:100%;
+}
+#bidarea{
+	height:40%;
+	width:40%;
+	margin-left:40%;
+	
+	background-color:#FFF;
+	
+}

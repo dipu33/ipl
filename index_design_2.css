@@ -1,0 +1,117 @@
+body
+{
+	background-image:url("WP4D62TP.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+#header
+{
+	height:30%;
+}
+#section
+{
+	height:50%;
+	padding:20px;
+}
+#footer
+{
+	height:20%;
+}
+.image-responsive:hover
+{
+
+    width: 250px;
+    height: 250px;
+}
+
+.image-responsive
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 60%;
+   -webkit-transition: width 1s, height 1s; 
+    transition: width 1s, height 1s;
+
+}
+
+	.index_img:hover
+ 	{
+    width: 250px;
+    height: 250px;
+	}
+
+
+.animated.fadeOutRight
+{
+		border-radius: 60%;
+
+	width: 200px;
+	height: 200px;
+}
+#sidemenu{
+	height: 100%;
+	width:15%;
+	float: right;
+	margin-top: -50%;
+	display:none;
+	opacity: .30;
+	position: relative;
+}
+#register{
+	display: none;
+	height: 300px;
+	width: 400px;
+	position: relative;
+	margin-top: -40%;
+	margin-left: 20%;
+}
+
+@import "bourbon";
+
+
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
